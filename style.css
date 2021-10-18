@@ -1,13 +1,57 @@
 body{
-    font-family: 'Patrick Hand', cursive;
+    font-family: 'Inconsolata', monospace;
+    font-weight:500;
+    margin: 0px;
 }
 
 h1{
     font-size: 50px;
-    margin:10px;
-
-
 }
 .namecolor{
-    color: rgb(214, 16, 214);
+    color: rgba(243, 13, 13, 0.836);
+}
+.testing{
+    color: rgb(66, 65, 133);
+}
+.ppp{
+    color: rgb(120, 124, 146);
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left:6%;
+    padding-left:3%;
+}
+.half-width img{
+    width:70%;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height:600px;
+    padding-bottom:80px ;
+}
+section{
+
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(yellow red);
+    padding:10px 20px;
+    border-radius:5px;
+    color: oldlace;
+    font-weight: 700;
+}
+.button2{
+    text-decoration: none;
+    background-color: rgb(19, 199, 154);
+    padding:10px 20px;
+    border-radius:5px;
+    color: oldlace;
+    font-weight: 700;
+}
+.dream work{
+    background-image: url("images/dream-bg.png");
 }
