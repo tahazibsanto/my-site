@@ -1,57 +1,63 @@
-body{
-    font-family: 'Inconsolata', monospace;
-    font-weight:500;
-    margin: 0px;
-}
+    body{
+        font-family: 'Inconsolata', monospace;
+        font-weight:500;
+        margin: 0px;
+    }
 
-h1{
-    font-size: 50px;
-}
-.namecolor{
-    color: rgba(243, 13, 13, 0.836);
-}
-.testing{
-    color: rgb(66, 65, 133);
-}
-.ppp{
-    color: rgb(120, 124, 146);
-}
-.half-width{
-    width: 40%;
-    float: left;
-    margin-left:6%;
-    padding-left:3%;
-}
-.half-width img{
-    width:70%;
-}
-.top-banner{
-    background-image: url("images/top-banner.png");
-    background-repeat: no-repeat;
-}
-section{
-    height:600px;
-    padding-bottom:80px ;
-}
-section{
-
-}
-.button{
-    text-decoration: none;
-    background-image: linear-gradient(yellow red);
-    padding:10px 20px;
-    border-radius:5px;
-    color: oldlace;
-    font-weight: 700;
-}
-.button2{
-    text-decoration: none;
-    background-color: rgb(19, 199, 154);
-    padding:10px 20px;
-    border-radius:5px;
-    color: oldlace;
-    font-weight: 700;
-}
-.dream work{
-    background-image: url("images/dream-bg.png");
-}
+    h1{
+        font-size: 50px;
+    }
+    .namecolor{
+        color: rgba(243, 13, 13, 0.836);
+    }
+    .testing{
+        color: rgb(66, 65, 133);
+    }
+    .ppp{
+        color: rgb(120, 124, 146);
+    }
+    .half-width{
+        width: 40%;
+        float: left;
+        margin-left:6%;
+        padding-left:3%;
+    }
+    .half-width img{
+        width:70%;
+    }
+    .top-banner{
+        background-image: url("images/top-banner.png");
+        background-repeat: no-repeat;
+    }
+    section{
+        height:600px;
+        padding-bottom:80px ;
+    }
+    .button{
+        text-decoration: none;
+        background-image: linear-gradient(to right,#c1ff17 , #3a0318);
+        padding:10px 20px;
+        border-radius:5px;
+        color: oldlace;
+        font-weight: 700;
+        transition: 1s;
+    }
+    .button2{
+        text-decoration: none;
+        background-image: linear-gradient(to right,#0fe7f7 , #3a0318);
+        padding:10px 20px;
+        border-radius:5px;
+        color: oldlace;
+        font-weight: 700;
+    }
+    .dream-work{
+        background-image: url("images/dream-bg.png");
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    .button:hover{
+        background-image: linear-gradient(to right,#dd0b7f , #26db0e);
+    }
+    .button2:hover{
+        background-image: linear-gradient(to right,#08868f , #7952c2);
+    }
