@@ -61,3 +61,25 @@
     .button2:hover{
         background-image: linear-gradient(to right,#08868f , #7952c2);
     }
+   
+
+    /** section third **/
+
+   .container{
+       width:45%;
+       float:left;
+       margin-left:6%;
+       padding-left:3%;
+
+   }
+
+   .content{
+       width:45%;
+       overflow: hidden;
+   }
+
+    /** section 4th **/
+
+    
+
+
