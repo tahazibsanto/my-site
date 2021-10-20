@@ -3,11 +3,10 @@
         font-weight:500;
         margin: 0px;
     }
-
     h1{
         font-size: 50px;
     }
-    .namecolor{
+    .colorofword{
         color: rgba(243, 13, 13, 0.836);
     }
     .testing{
@@ -61,25 +60,52 @@
     .button2:hover{
         background-image: linear-gradient(to right,#08868f , #7952c2);
     }
-   
 
     /** section third **/
 
-   .container{
-       width:45%;
-       float:left;
-       margin-left:6%;
-       padding-left:3%;
-
-   }
-
-   .content{
-       width:45%;
-       overflow: hidden;
-   }
+    .container{
+        width:40%;
+        height:40%;
+        float:left;
+        margin-left:6%;
+        padding-left:4%;
+    }
+    .content {
+        width:30px%;
+        height:100%;
+        overflow: hidden;
+    }
 
     /** section 4th **/
+    .exoerience{
+        margin:20px 40px ;
+        padding: 20px;
+    }
+    .card{
+    box-shadow:20px 20px 50px gray;
+    border-radius:10px;
+    height:55%;
+    width:35%;
+    text-align: center;
+    }
+    .for-card{
+        background-image: url(images/exp-bg.png);
+        background-repeat:no-repeat;
+        background-position: left;
+    }
+    #orange{
+        border-left: 6px solid;
+        border-image: linear-gradient (#f0cc04de , #5e7e06);
+        border-image-slice: 1;
+    }
+    #blue{
+        border-left:4px solid;
+    }
+    footer p{
+        text-align: center;
+        font-size:15px;
+    }
 
-    
+
 
 
