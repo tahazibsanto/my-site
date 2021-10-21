@@ -1,0 +1,12 @@
+.test-site{
+    text-align: center;
+    color:rgba(46, 13, 196, 0.596);
+    box-shadow:10px 10px 200px
+}
+/**1st section**/
+.list-card{
+    box-shadow:20px 20px 50px gray;
+    border-radius:10px;
+    height:55%;
+    width:35%;
+}
